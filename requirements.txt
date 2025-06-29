@@ -1,0 +1,2 @@
+# No external dependencies required for pycolors
+# This package only uses Python standard library 
