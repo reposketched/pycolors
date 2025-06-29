@@ -1,1 +1,1 @@
-# Tests package for pycolors 
+# Tests package for pyansicolor 

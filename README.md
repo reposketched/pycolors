@@ -1,4 +1,4 @@
-# pycolors
+# pyansicolor
 
 A Python library for ANSI 24-bit (True Color) terminal coloring with a simple and intuitive API.
 
@@ -15,20 +15,20 @@ A Python library for ANSI 24-bit (True Color) terminal coloring with a simple an
 
 ### From PyPI (when published)
 ```bash
-pip install pycolors
+pip install pyansicolor
 ```
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/pycolors.git
-cd pycolors
+git clone https://github.com/yourusername/pyansicolor.git
+cd pyansicolor
 pip install -e .
 ```
 
 ## Quick Start
 
 ```python
-from pycolors import colored, background, colorize, hex_colored
+from pyansicolor import colored, background, colorize, hex_colored
 
 # Basic text coloring
 print(colored("Hello, World!", 255, 0, 0))  # Red text
@@ -46,7 +46,7 @@ print(colorize("Hello, World!", (255, 0, 0), (0, 255, 0)))  # Red text on green 
 ### Basic Coloring
 
 ```python
-from pycolors import colored, background
+from pyansicolor import colored, background
 
 # Color text with RGB values
 red_text = colored("This is red text", 255, 0, 0)
@@ -62,7 +62,7 @@ print(red_bg)
 ### Using Predefined Colors
 
 ```python
-from pycolors import colored, red, blue, green, yellow
+from pyansicolor import colored, red, blue, green, yellow
 
 # Use predefined color constants
 print(colored("Red text", *red))
@@ -74,7 +74,7 @@ print(colored("Yellow text", *yellow))
 ### Hex Colors
 
 ```python
-from pycolors import hex_colored, hex_to_rgb
+from pyansicolor import hex_colored, hex_to_rgb
 
 # Color text using hex codes
 print(hex_colored("Purple text", "#800080"))
@@ -88,7 +88,7 @@ print(f"Red in RGB: {rgb}")  # (255, 0, 0)
 ### Text Styling
 
 ```python
-from pycolors import styled, bold, underline, reverse
+from pyansicolor import styled, bold, underline, reverse
 
 # Apply multiple styles
 styled_text = styled("Bold red text", 255, 0, 0, bold=True)
@@ -103,7 +103,7 @@ print(reverse("Reversed text"))
 ### Advanced Usage
 
 ```python
-from pycolors import colorize, ncolored, nbackground
+from pyansicolor import colorize, ncolored, nbackground
 
 # Using RGB tuples
 color = (255, 165, 0)  # Orange
@@ -154,8 +154,8 @@ This library works on terminals that support ANSI escape codes, including:
 
 ### Setup Development Environment
 ```bash
-git clone https://github.com/yourusername/pycolors.git
-cd pycolors
+git clone https://github.com/yourusername/pyansicolor.git
+cd pyansicolor
 pip install -e ".[dev]"
 ```
 

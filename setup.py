@@ -7,14 +7,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="pycolors",
+    name="pyansicolor",
     version="1.0.0",
     author="Sooryashankar Joy",
     author_email="",  # Add your email if desired
     description="A Python library for ANSI 24-bit (True Color) terminal coloring",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pycolors",  # Update with your actual repository URL
+    url="https://github.com/yourusername/pyansicolor",  # Update with your actual repository URL
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -45,8 +45,8 @@ setup(
     },
     keywords="ansi terminal colors console output formatting",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/pycolors/issues",
-        "Source": "https://github.com/yourusername/pycolors",
-        "Documentation": "https://github.com/yourusername/pycolors#readme",
+        "Bug Reports": "https://github.com/yourusername/pyansicolor/issues",
+        "Source": "https://github.com/yourusername/pyansicolor",
+        "Documentation": "https://github.com/yourusername/pyansicolor#readme",
     },
 ) 

@@ -1,2 +1,2 @@
-# No external dependencies required for pycolors
-# This package only uses Python standard library 
+# No external dependencies required for pyansicolor
+# This package only uses the Python standard library 
