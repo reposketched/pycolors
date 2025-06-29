@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pyansicolor/pyansicolor.egg-info/PKG-INFO
+pyansicolor/pyansicolor.egg-info/SOURCES.txt
+pyansicolor/pyansicolor.egg-info/dependency_links.txt
+pyansicolor/pyansicolor.egg-info/requires.txt
+pyansicolor/pyansicolor.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pyansicolor.py

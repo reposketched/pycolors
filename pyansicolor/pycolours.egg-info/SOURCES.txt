@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pycolours/pycolours.egg-info/PKG-INFO
+pycolours/pycolours.egg-info/SOURCES.txt
+pycolours/pycolours.egg-info/dependency_links.txt
+pycolours/pycolours.egg-info/requires.txt
+pycolours/pycolours.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pycolours.py

@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="pyansicolor",
-    version="1.0.0",
+    version="1.0.1",
     author="Sooryashankar Joy",
     author_email="",  # Add your email if desired
     description="A Python library for ANSI 24-bit (True Color) terminal coloring",
